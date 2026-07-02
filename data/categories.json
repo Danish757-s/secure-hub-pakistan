@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ip-cameras",
+    "name": "IP Cameras",
+    "description": "Network-based, high resolution",
+    "image": "",
+    "icon": "ip-camera"
+  },
+  {
+    "id": "analog-cameras",
+    "name": "Analog Cameras",
+    "description": "Reliable, budget friendly",
+    "image": "",
+    "icon": "analog-camera"
+  },
+  {
+    "id": "ptz-cameras",
+    "name": "PTZ Cameras",
+    "description": "Pan, tilt & zoom control",
+    "image": "",
+    "icon": "ptz-camera"
+  },
+  {
+    "id": "nvr",
+    "name": "NVR",
+    "description": "Network video recorders",
+    "image": "",
+    "icon": "nvr"
+  },
+  {
+    "id": "dvr",
+    "name": "DVR",
+    "description": "Digital video recorders",
+    "image": "",
+    "icon": "dvr"
+  },
+  {
+    "id": "poe-switches",
+    "name": "POE Switches",
+    "description": "Power + data, one cable",
+    "image": "",
+    "icon": "poe-switch"
+  },
+  {
+    "id": "access-control",
+    "name": "Access Control",
+    "description": "Doors, gates & entry",
+    "image": "",
+    "icon": "access-control"
+  },
+  {
+    "id": "video-door-phone",
+    "name": "Video Door Phone",
+    "description": "See & speak, before opening",
+    "image": "",
+    "icon": "door-phone"
+  }
+]

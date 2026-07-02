@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --color-bg: #0B1220;
+  --color-surface: #101A2E;
+  --color-surface-light: #16223B;
+  --color-text: #E8EDF4;
+  --color-text-muted: #8B96A8;
+  --color-accent: #FF6B35;      /* CTA / warm alert */
+  --color-accent-hover: #FF7F52;
+  --color-signal: #00C2D1;      /* tech / status cyan */
+  --color-border: #1F2C47;
+
+  /* Type */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing scale */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+
+  /* Layout */
+  --container-width: 1200px;
+  --radius: 8px;
+}
