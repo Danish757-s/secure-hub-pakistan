@@ -484,3 +484,87 @@ ul { list-style: none; }
 @media (max-width: 500px) {
   .footer__grid { grid-template-columns: 1fr; }
 }
+/* ===== Page Header ===== */
+.page-header {
+  padding: var(--space-5) 0 var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+.page-header__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  margin: 0.4rem 0;
+}
+.page-header__crumb {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.page-header__crumb a { color: var(--color-signal); }
+
+/* ===== Shop Layout ===== */
+.shop { padding: var(--space-5) 0 var(--space-6); }
+.shop__layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.shop__sidebar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  position: sticky;
+  top: 100px;
+}
+.filter-group { margin-bottom: var(--space-3); }
+.filter-group h4 {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+.filter-group input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  color: var(--color-text);
+  font-size: 0.85rem;
+}
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  padding: 0.35rem 0;
+  cursor: pointer;
+}
+.filter-item:hover { color: var(--color-text); }
+.filter-clear { width: 100%; text-align: center; }
+
+.shop__results-bar {
+  margin-bottom: var(--space-3);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.shop__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+.shop__empty {
+  color: var(--color-text-muted);
+  padding: var(--space-4) 0;
+}
+
+@media (max-width: 900px) {
+  .shop__layout { grid-template-columns: 1fr; }
+  .shop__sidebar { position: static; }
+  .shop__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .shop__grid { grid-template-columns: 1fr; }
+}
