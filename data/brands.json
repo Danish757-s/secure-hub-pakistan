@@ -1,0 +1,10 @@
+[
+  { "id": "hikvision", "name": "Hikvision", "tagline": "World's largest video surveillance manufacturer", "logo": "" },
+  { "id": "dahua", "name": "Dahua", "tagline": "Global leader in AI-powered security", "logo": "" },
+  { "id": "ezviz", "name": "EZVIZ", "tagline": "Smart home cameras, simple setup", "logo": "" },
+  { "id": "imou", "name": "IMOU", "tagline": "Affordable smart security for homes", "logo": "" },
+  { "id": "tiandy", "name": "Tiandy", "tagline": "Reliable cameras & recorders", "logo": "" },
+  { "id": "unv", "name": "UNV", "tagline": "Uniview — professional-grade surveillance", "logo": "" },
+  { "id": "tp-link", "name": "TP-Link", "tagline": "Networking & smart camera solutions", "logo": "" },
+  { "id": "tenda", "name": "Tenda", "tagline": "Budget-friendly networking & cameras", "logo": "" }
+]

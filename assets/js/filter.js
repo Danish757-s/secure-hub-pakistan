@@ -19,6 +19,9 @@ async function initShopPage() {
   const catFromUrl = params.get("cat");
   if (catFromUrl) activeFilters.category = catFromUrl;
 
+  const brandFromUrl = params.get("brand");
+  if (brandFromUrl) activeFilters.brands.add(brandFromUrl);
+
   renderCategoryFilters();
   renderBrandFilters();
   renderProducts();

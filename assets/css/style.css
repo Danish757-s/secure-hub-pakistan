@@ -568,3 +568,256 @@ ul { list-style: none; }
 @media (max-width: 560px) {
   .shop__grid { grid-template-columns: 1fr; }
 }
+/* ===== About Intro ===== */
+.about-intro { padding: var(--space-6) 0; }
+.about-intro__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-5);
+  align-items: center;
+}
+.about-intro p {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+.about-stats__item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  text-align: center;
+}
+.about-stats__item strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--color-signal);
+}
+.about-stats__item span {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* ===== Vision / Mission ===== */
+.vm {
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.vm__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+.vm__card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+.vm__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
+  background: rgba(255, 107, 53, 0.1);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-2);
+}
+.vm__icon svg { width: 24px; height: 24px; }
+.vm__card h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+.vm__card p { color: var(--color-text-muted); font-size: 0.9rem; }
+
+/* ===== Why Choose Us ===== */
+.why { padding: var(--space-6) 0; }
+.why__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-3);
+}
+.why__card {
+  text-align: center;
+  padding: var(--space-3);
+}
+.why__icon {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto var(--space-2);
+  border-radius: 50%;
+  background: rgba(0, 194, 209, 0.1);
+  color: var(--color-signal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why__icon svg { width: 24px; height: 24px; }
+.why__card h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+.why__card p { color: var(--color-text-muted); font-size: 0.85rem; }
+
+@media (max-width: 900px) {
+  .about-intro__grid { grid-template-columns: 1fr; }
+  .vm__grid { grid-template-columns: 1fr; }
+  .why__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+  .why__grid { grid-template-columns: 1fr; }
+}
+/* ===== Contact Page ===== */
+.contact { padding: var(--space-6) 0; }
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--space-5);
+  align-items: start;
+}
+.contact__lead {
+  color: var(--color-text-muted);
+  margin: var(--space-2) 0 var(--space-4);
+}
+.contact-card {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.contact-card:last-child { border-bottom: none; }
+.contact-card__icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  background: rgba(0, 194, 209, 0.1);
+  color: var(--color-signal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-card__icon svg { width: 20px; height: 20px; }
+.contact-card h4 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+.contact-card p, .contact-card a { color: var(--color-text-muted); font-size: 0.9rem; }
+.contact-card a:hover { color: var(--color-signal); }
+
+.contact-form {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+.contact-form h3 {
+  font-family: var(--font-display);
+  margin-bottom: var(--space-3);
+}
+.contact-form label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin: var(--space-2) 0 0.35rem;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  resize: vertical;
+}
+.contact-form__submit {
+  width: 100%;
+  margin-top: var(--space-3);
+  text-align: center;
+}
+.contact-form__note {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+/* ===== Map ===== */
+.map-section {
+  line-height: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 900px) {
+  .contact__grid { grid-template-columns: 1fr; }
+}
+/* ===== Brands Page ===== */
+.brands-page { padding: var(--space-6) 0; }
+.brands-page__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-3);
+}
+.brand-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.brand-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+}
+.brand-card__logo {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-2);
+  border-radius: 50%;
+  background: var(--color-surface-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.brand-card__initial {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-signal);
+}
+.brand-card__logo-img { width: 100%; height: 100%; object-fit: contain; }
+.brand-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+.brand-card p {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 900px) {
+  .brands-page__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+  .brands-page__grid { grid-template-columns: 1fr; }
+}
