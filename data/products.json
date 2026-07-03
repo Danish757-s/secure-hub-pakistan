@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hik-ds2cd2387",
+    "name": "4K ColorVu Turret Camera",
+    "brand": "Hikvision",
+    "model": "DS-2CD2387G2-LSU",
+    "category": "ip-cameras",
+    "price": 24500,
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "dahua-nvr4108",
+    "name": "8 Channel WizSense NVR",
+    "brand": "Dahua",
+    "model": "NVR4108HS",
+    "category": "nvr",
+    "price": 23500,
+    "image": "d:\\Whatsapp images\\Dahua nvr.webp",
+    "featured": true
+  },
+  {
+    "id": "ezviz-c3wn",
+    "name": "Outdoor WiFi Bullet Camera",
+    "brand": "EZVIZ",
+    "model": "C3WN",
+    "category": "ip-cameras",
+    "price": 9800,
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "imou-ranger2",
+    "name": "Indoor Pan & Tilt Camera",
+    "brand": "IMOU",
+    "model": "Ranger 2",
+    "category": "ptz-cameras",
+    "price": 7200,
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "tiandy-tc-c32",
+    "name": "2MP Fixed Dome Camera",
+    "brand": "Tiandy",
+    "model": "TC-C32TS",
+    "category": "analog-cameras",
+    "price": 4500,
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "unv-nvr301",
+    "name": "16 Channel NVR",
+    "brand": "UNV",
+    "model": "NVR301-16X",
+    "category": "nvr",
+    "price": 32000,
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "imou-1782993445408",
+    "name": "imou  Bullet 2E",
+    "brand": "IMOU",
+    "model": "k3dp-3h0wf",
+    "category": "ip-cameras",
+    "price": 10000,
+    "image": "assets/images/products/imou-k3dp-3h0wf.jpg",
+    "featured": true
+  }
+]
