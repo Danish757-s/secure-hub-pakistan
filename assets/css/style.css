@@ -885,3 +885,89 @@ ul { list-style: none; }
 @media (max-width: 560px) {
   .services-page__grid { grid-template-columns: 1fr; }
 }
+/* ===== Projects Page ===== */
+.projects-page { padding: var(--space-6) 0; }
+
+.project-tabs {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+.project-tab {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.2s ease;
+}
+.project-tab:hover { color: var(--color-text); }
+.project-tab.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #0B1220;
+}
+
+.projects-page__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+.project-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.project-card__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+.project-card__img--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface-light);
+  color: var(--color-text-muted);
+}
+.project-card__img--placeholder svg { width: 40px; height: 40px; }
+.project-card__body { padding: var(--space-3); }
+.project-card__type {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-signal);
+  margin-bottom: 0.4rem;
+}
+.project-card__body h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+.project-card__location {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.6rem;
+}
+.project-card__desc {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .projects-page__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .projects-page__grid { grid-template-columns: 1fr; }
+}

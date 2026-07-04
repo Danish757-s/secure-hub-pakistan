@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dha-villa-1",
+    "title": "12-Camera Residential Setup",
+    "location": "DHA Phase 6, Lahore",
+    "type": "residential",
+    "description": "Full perimeter and indoor coverage with Hikvision ColorVu cameras and 16-channel NVR, remote viewing configured on the owner's phone.",
+    "image": "",
+    "date": "2025"
+  },
+  {
+    "id": "askari-office",
+    "title": "Office Access Control & CCTV",
+    "location": "Askari 11, Lahore",
+    "type": "commercial",
+    "description": "Card-based access control at entry points combined with an 8-camera network covering reception, floors and parking.",
+    "image": "",
+    "date": "2025"
+  },
+  {
+    "id": "model-town-shop",
+    "title": "Retail Store Security System",
+    "location": "Model Town, Lahore",
+    "type": "commercial",
+    "description": "4-camera analog setup with DVR, cash counter close-up coverage, and entrance recording for loss prevention.",
+    "image": "",
+    "date": "2024"
+  },
+  {
+    "id": "industrial-factory",
+    "title": "Factory-Wide Surveillance Network",
+    "location": "Industrial Area, Lahore",
+    "type": "industrial",
+    "description": "24-camera PTZ and fixed-lens network with fiber backbone connecting three factory buildings to a central NVR room.",
+    "image": "",
+    "date": "2024"
+  },
+  {
+    "id": "dha-home-2",
+    "title": "Video Door Phone + 6 Camera Setup",
+    "location": "DHA Phase 3, Lahore",
+    "type": "residential",
+    "description": "Video door phone at the main gate integrated with a 6-camera EZVIZ system, all viewable from one mobile app.",
+    "image": "",
+    "date": "2025"
+  },
+  {
+    "id": "warehouse-access",
+    "title": "Warehouse Attendance & Access System",
+    "location": "Bedian Road, Lahore",
+    "type": "industrial",
+    "description": "Biometric attendance machines at staff entry, paired with NVR-based monitoring of loading bays.",
+    "image": "",
+    "date": "2024"
+  }
+]
