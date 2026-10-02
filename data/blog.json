@@ -1,0 +1,29 @@
+[
+  {
+    "title": "How to choose a CCTV camera for your home in Lahore",
+    "slug": "choose-cctv-camera-for-home-lahore",
+    "date": "2026-10-02",
+    "category": "Guides",
+    "excerpt": "Resolution, night vision, wired or wireless: what actually matters when you pick cameras for a house in DHA, Askari 11 or Model Town.",
+    "image": "",
+    "content": "<p>Most homeowners start by asking which brand is best. A better first question is: what do you need to see, and at what distance? The answer decides the camera type, the resolution and the recorder you need.</p><h2>1. Decide what each camera must cover</h2><p>Gate and driveway cameras need to capture faces and number plates, so they need higher resolution and a good lens. Lawn, lounge and corridor cameras only need to show who is moving, so a standard camera is enough.</p><h2>2. Resolution: 2MP, 4MP or 8MP</h2><p>2MP is fine for small rooms and short distances. For gates, boundary walls and wide areas, 4MP or higher gives you detail you can still use when you zoom into a recording.</p><h2>3. Night vision</h2><p>Check the IR range and whether the camera offers colour night vision. Street lights and boundary lights in your area change what works best.</p><h2>4. Wired or wireless</h2><p>Wired (PoE or coaxial) cameras are more reliable for permanent installs. Wireless cameras such as EZVIZ or IMOU are easy to set up for flats, rooms and quick coverage, but depend on your Wi-Fi.</p><h2>5. Storage and remote viewing</h2><p>Choose a recorder with enough hard disk for the number of days you want to keep. Make sure you can view live video on your phone.</p><p>Not sure what your property needs? Message us on WhatsApp and we will arrange a site visit.</p>"
+  },
+  {
+    "title": "Hikvision vs Dahua vs EZVIZ: which one should you buy?",
+    "slug": "hikvision-vs-dahua-vs-ezviz",
+    "date": "2026-09-25",
+    "category": "Comparisons",
+    "excerpt": "A plain comparison of three popular brands, and which kind of buyer each one suits best.",
+    "image": "",
+    "content": "<p>All three brands are widely sold and supported in Pakistan. The right choice depends on the size of your project and how you want to manage it.</p><h2>Hikvision</h2><p>A strong all-round choice for homes, shops and factories. Wide range of cameras and recorders, and many installers are familiar with it, which makes servicing easier.</p><h2>Dahua</h2><p>Also a full professional range. Often chosen for larger multi-camera setups and commercial sites.</p><h2>EZVIZ</h2><p>Aimed at home users. Easy app setup, simple Wi-Fi cameras and quick installation for flats and small houses.</p><h2>Which should you pick?</h2><ul><li>Small flat or a few rooms: EZVIZ or IMOU</li><li>Full house with several cameras: Hikvision or Dahua</li><li>Factory, warehouse or plaza: Hikvision, Dahua or UNV with an NVR</li></ul><p>Tell us your budget and number of cameras, and we will recommend a setup.</p>"
+  },
+  {
+    "title": "DVR or NVR: what is the difference and which do you need?",
+    "slug": "dvr-vs-nvr-difference",
+    "date": "2026-09-18",
+    "category": "Guides",
+    "excerpt": "A short explanation of analog and IP systems, and when upgrading makes sense.",
+    "image": "",
+    "content": "<p>A recorder stores the video from your cameras. The type you need depends on the cameras you use.</p><h2>DVR</h2><p>Works with analog (HD-TVI, HD-CVI, AHD) cameras connected by coaxial cable. It is often the lower-cost option and can reuse existing cabling in older buildings.</p><h2>NVR</h2><p>Works with IP cameras over network cable. IP systems offer higher resolution options, easier expansion and, with PoE, power and video over a single cable.</p><h2>Which one is right for you?</h2><p>If you already have coaxial wiring and want to keep costs down, a DVR upgrade can be enough. For a new installation where you want higher quality and room to grow, an NVR with IP cameras is usually the better choice.</p>"
+  }
+]
