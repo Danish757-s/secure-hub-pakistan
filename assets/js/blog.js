@@ -108,7 +108,7 @@
       '<div class="post__content">' + p.content + '</div>' +
       '<div class="post__cta">' +
         '<p><strong>Need help with your CCTV setup?</strong> Send us your area and the number of cameras, and we will suggest a setup.</p>' +
-        '<a class="btn btn--primary" href="https://wa.me/923178412757?text=' + waQuote + '" target="_blank" rel="noopener">Get a quote on WhatsApp</a>' +
+        '<a class="btn btn--primary" href="https://wa.me/923227157072?text=' + waQuote + '" target="_blank" rel="noopener">Get a quote on WhatsApp</a>' +
         '<a class="btn btn--ghost" href="https://wa.me/?text=' + waText + '" target="_blank" rel="noopener">Share this article</a>' +
       '</div>';
 

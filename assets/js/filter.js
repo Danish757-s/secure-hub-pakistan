@@ -118,7 +118,7 @@ function renderProducts() {
           <span class="product-card__model">${p.model}</span>
           <div class="product-card__footer">
             <span class="product-card__price">${formatPKR(p.price)}</span>
-            <a href="https://wa.me/923178412757?text=${message}" target="_blank" class="product-card__whatsapp" aria-label="Inquire on WhatsApp">
+            <a href="https://wa.me/923227157072?text=${message}" target="_blank" class="product-card__whatsapp" aria-label="Inquire on WhatsApp">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.87.5 3.63 1.38 5.15L2 22l4.98-1.35A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.13-.42-4.47-1.22l-.32-.19-3.14.85.85-3.06-.2-.32A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg>
             </a>
           </div>

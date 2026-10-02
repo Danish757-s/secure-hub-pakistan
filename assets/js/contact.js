@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const text = `Assalam o Alaikum, mera naam ${name} hai (${phone}).\n\nSubject: ${subject}\n\n${message || "Mujhe iske baare mein maloomat chahiye."}`;
 
-    const whatsappUrl = `https://wa.me/923178412757?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/923227157072?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, "_blank");
   });
 });
