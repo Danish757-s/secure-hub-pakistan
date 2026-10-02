@@ -7,7 +7,7 @@
     "category": "ip-cameras",
     "price": 24500,
     "image": "",
-    "featured": true
+    "featured": false
   },
   {
     "id": "dahua-nvr4108",
@@ -17,7 +17,7 @@
     "category": "nvr",
     "price": 23500,
     "image": "assets/images/products/dahua-nvr.webp",
-    "featured": true
+    "featured": false
   },
   {
     "id": "ezviz-c3wn",
@@ -27,7 +27,7 @@
     "category": "ip-cameras",
     "price": 9800,
     "image": "",
-    "featured": true
+    "featured": false
   },
   {
     "id": "imou-ranger2",
@@ -37,7 +37,7 @@
     "category": "ptz-cameras",
     "price": 7200,
     "image": "",
-    "featured": true
+    "featured": false
   },
   {
     "id": "tiandy-tc-c32",
@@ -47,7 +47,7 @@
     "category": "analog-cameras",
     "price": 4500,
     "image": "",
-    "featured": true
+    "featured": false
   },
   {
     "id": "unv-nvr301",
@@ -57,7 +57,7 @@
     "category": "nvr",
     "price": 32000,
     "image": "",
-    "featured": true
+    "featured": false
   },
   {
     "id": "imou-1782993445408",
@@ -67,6 +67,16 @@
     "category": "ip-cameras",
     "price": 10000,
     "image": "assets/images/products/imou-k3dp-3h0wf.jpg",
+    "featured": false
+  },
+  {
+    "id": "hik-16dot-exipf",
+    "name": "2MP HD Turbo Bullet Camera",
+    "brand": "Hikvision",
+    "model": "16Dot-EXIPF",
+    "category": "analog-cameras",
+    "price": 4000,
+    "image": "",
     "featured": true
   }
 ]
